@@ -19,6 +19,6 @@
   "homepage": "https://github.com/devleague/Challenge-Sum-square-difference#readme",
   "dependencies": {
     "chai": "^4.2.0",
-    "mocha": "^6.1.3"
+    "mocha": "^6.2.0"
   }
 }
