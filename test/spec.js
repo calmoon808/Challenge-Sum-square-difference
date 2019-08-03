@@ -1,6 +1,6 @@
 const expect = require('chai').expect;
 
-const SumOfASquare = require("../sumSquareDifference").SumOfASquare;
+const SumOfASquare = require("../sumSquareDifference.js").SumOfASquare;
 
 describe("Difference between sum of squares and squares of sum", function () {
 
@@ -17,5 +17,4 @@ describe("Difference between sum of squares and squares of sum", function () {
     expect( squareSummer.squareOfTheSums() ).equal(25502500);
     expect( squareSummer.squareOfTheSums() - squareSummer.sumOfSquares() ).equal(25164150);
   });
-
 });
